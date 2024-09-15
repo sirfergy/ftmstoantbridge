@@ -5,14 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "main": "node index.js"
   },
   "author": "sirfergy",
   "license": "ISC",
   "dependencies": {
-    "noble": "^1.9.1"
-  },
-  "devDependencies": {
-
+    "@abandonware/noble": "^1.9.2-25"
   }
 }
