@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Proxy FTMS Bluetooth devices to ANT+ profiles",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "main": "node index.js"
@@ -10,7 +11,6 @@
   "author": "sirfergy",
   "license": "ISC",
   "dependencies": {
-    "@abandonware/noble": "^1.9.2-25",
-    "ant-plus": "github:sirfergy/ant-plus"
+    "ant-plus-next": "^0.3.2"
   }
 }

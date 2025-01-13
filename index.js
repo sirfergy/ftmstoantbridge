@@ -1,7 +1,6 @@
-const noble = require('@abandonware/noble')
-const { GarminStick2, StrideSpeedDistanceSensor } = require('ant-plus')
+import { GarminStick2, StrideSpeedDistanceSensor } from 'ant-plus-next';
 
-const stick = new GarminStick2()
+const stick = new GarminStick2();
 
 const running = new StrideSpeedDistanceSensor(stick);
 running.on('ssdData', data => {
@@ -9,7 +8,7 @@ running.on('ssdData', data => {
 });
 
 stick.on('startup', () => {
-    running.attach(0, 0);
+    running.attachSensor(0, 0);
 });
 
 await stick.open();
