@@ -10,6 +10,7 @@
   "author": "sirfergy",
   "license": "ISC",
   "dependencies": {
-    "@abandonware/noble": "^1.9.2-25"
+    "@abandonware/noble": "abandonware/noble",
+    "ant-plus-next": "sirfergy/ant-plus-next"
   }
 }
